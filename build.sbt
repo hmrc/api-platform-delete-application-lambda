@@ -2,7 +2,7 @@ lazy val appName = "api-platform-delete-application-lambda"
 lazy val appDependencies: Seq[ModuleID] = compileDependencies ++ testDependencies
 
 lazy val compileDependencies = Seq(
-  "uk.gov.hmrc" %% "api-platform-manage-api" % "0.21.0"
+  "uk.gov.hmrc" %% "api-platform-manage-api" % "0.26.0"
 )
 
 lazy val testScope: String = "test"
