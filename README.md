@@ -1,7 +1,7 @@
 
 # api-platform-delete-application-lambda
 
-This is a placeholder README.md for a new repository
+The Lambda in this repository has been deprecated in favour of the [Delete API Key Lambda](https://github.com/hmrc/api-platform-delete-api-key-lambda)
 
 ### License
 
