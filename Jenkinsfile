@@ -4,7 +4,7 @@
 String target_file = "target/scala-2.11/${env.JOB_BASE_NAME}.zip"
 
 pipeline {
-    agent any
+    agent { label 'docker' }
 
     stages {
         stage('Build artefact') {
